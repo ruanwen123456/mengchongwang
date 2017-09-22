@@ -1,0 +1,102 @@
+a,address,blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+}
+#header{
+    /*
+    background-color: red;
+    */
+    text-align: right;
+    margin: 15px 9px 30px 0;
+}
+#header a{
+    margin: 3px;
+    font-weight: bolder;
+
+}
+#header a.moreProduct{
+    display: inline-block;
+    background-color: #3385ff;
+    color: white;
+    width: 80px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+    font-weight: normal;
+}
+#content{
+    /*
+    background-color: green;
+    */
+
+}
+#content .logo img{
+    width: 270px;
+    height: 129px;
+}
+#content .logo{
+    text-align: center;
+}
+#content .search{
+
+    width: 500px;
+    height: 33px;
+    margin: 0 auto;
+    /*
+    text-align: center;
+    */
+}
+#content .search input{
+    width: 400px;
+    height: 33px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+}
+#content .search input:focus{
+    outline: none;
+    border: 1px solid #3385ff;
+}
+#content .search a{
+    display: inline-block;
+    background-color: #3385ff;
+    color: white;
+    width: 80px;
+    height: 33px;
+    text-align: center;
+    line-height: 28px;
+    text-decoration: none;
+    font-weight: normal;
+    /*
+    float: right;
+    */
+}
+#content .dom{
+    margin-top: 20px;
+    text-align: center;
+}
+#content .dom img{
+    width: 150px;
+    margin: 5px;
+}
+#content .dom img:hover{
+    /*不透明度*/
+    opacity: 0.5;
+}
+#footer{
+    margin-top: 100px;
+    text-align: center;
+}
+#footer p{
+    margin-top: 5px;
+}
+#footer p.footer-top a{
+    margin: 0 5px;
+}
+#footer a{
+    color: #3385ff;
+}

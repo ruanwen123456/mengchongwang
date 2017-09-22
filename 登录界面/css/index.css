@@ -1,0 +1,119 @@
+a,address,b,big,blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F2F2F2;
+    text-align: center;
+}
+/*面板*/
+#panel {
+    margin-top: 50px;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #999;
+}
+/*面板头部*/
+#panel .panel-top{
+    font-size: 13px;
+    font-family: Arial;
+
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    width: 200px;
+    margin: 0 auto;
+}
+/*面板中间*/
+#panel .panel-content{
+    margin-top: 20px;
+}
+#panel .panel-content .int{
+    height: 36px;
+    margin-bottom: 10px;
+    position: relative;
+}
+#panel .panel-content label{
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+#panel .panel-content input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ddd;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+#panel .panel-content input:focus{
+    outline: none;
+    border: 1px solid orange;
+    border-radius: 5px;
+    box-shadow: 0 0 2px orange;
+}
+#panel .panel-content .passWord-login a{
+    display: inline-block;
+    font-size: 14px;
+    color: gray;
+}
+#panel .panel-content .passWord-login{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+#panel .panel-content .passWord-login input{
+    display: inline-block;
+    width: 20px;
+    float:left;
+}
+
+#panel .panel-content .passWord-login .password-left{
+    float: left;
+    text-decoration: none;
+}
+
+#panel .panel-content .passWord-login .password-right{
+    float: right;
+    text-decoration: none;
+}
+/*登录界面*/
+#panel .panel-content .login button{
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+#panel .panel-content .regist{
+    height: 30px;
+    line-height:30px;
+    font-size: 13px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+#panel .panel-content .regist a{
+    color: orangered;
+    /*去掉下划线*/
+    text-decoration: none;
+    margin-left: 5px;
+}
+/*底部*/
+#panel .panel-footer img{
+    width: 30px;
+    /*图片居中*/
+    vertical-align: middle;
+}
+#panel .panel-footer{
+    height: 30px;
+    line-height: 30px;
+
+}
+#panel .panel-footer span{
+    display: inline-block;
+    font-size: 14px;
+}
